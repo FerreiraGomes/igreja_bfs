@@ -1,0 +1,58 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e3dedc;
+}
+header img {
+    width: 90px;
+    height: 90px;
+}
+
+.navbar {
+    background-color: #658f3d;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #658f3d;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+#sobre-a-igreja,
+#ministerios {
+    background-color: #e3dedc;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 555px;
+}
+
+#cultos,
+#siga {
+    background-color: #658f3dce;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.text-colored {
+    color: rgb(37, 37, 37);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .spacing {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
